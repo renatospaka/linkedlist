@@ -22,6 +22,19 @@ arr := node.ToArray() // [1, 2, 3, 4]
 inv := node.ToInverse() // returns a new list with values [4, 3, 2, 1]
 node.List() // prints: nodes: [1 2 3 4]
 ```
+## Installation
+
+To use this package in another Go project, run:
+
+```bash
+go get github.com/renatospaka/linkedlist
+```
+
+Then, import it in your code:
+
+```go
+import "github.com/renatospaka/linkedlist"
+```
 
 ## Testing
 

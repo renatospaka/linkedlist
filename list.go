@@ -51,19 +51,6 @@ func (l *ListNode) ToArray() []int {
 	return listNode
 }
 
-// func (l *ListNode) Invert() {
-// 	var previous *ListNode
-// 	current := l
-
-// 	for current != nil {
-// 		next := current.Next
-// 		current.Next = previous
-// 		previous = current
-// 		current = next
-// 	}
-// 	return previous
-// }
-
 func (l *ListNode) ToInverse() *ListNode {
 	var previous *ListNode
 	current := l
